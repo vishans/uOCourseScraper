@@ -1,0 +1,105 @@
+# uoScrape
+A simple uOttawa course scraper written in Python.
+All the data scraped is publicly available at https://catalogue.uottawa.ca/en/courses/.
+
+# What is scraped exactly?
++ subject_code
++ course_number
++ name (course name)
++ prerequisites
++ units 
+
+*Note: All the attributes are of type ```str```*
+
+# What courses are supported?
+Well, all of em. Everything that is publicly available at the aforementionned link.
+Here is the list (as per March 2025):
+
+1. Accounting (`CPT`)
+2. Administration (`ADM`)
+3. Anesthesiology (`ANE`)
+4. Anthropology (`ANT`)
+5. Arabic Language and Culture (`ARB`)
+6. Arts Co-op (`ACP`)
+7. Arts, Music, Theatre (`AMT`)
+8. Biomedical Engineering (`BMG`)
+9. Biomedical Science (`BIM`)
+10. Biomolecular Sciences (`BML`)
+11. Biopharmaceutical Science (`BPS`)
+12. Biomedical Engineering (`BMG`)
+13. Biomedical Science (`BIM`)
+14. Biomolecular Sciences (`BML`)
+15. Canadian Studies (`CDN`)
+16. Chemistry (`CHM`)
+17. Chemical Engineering (`CHG`)
+18. Chinese (`CHN`)
+19. Civil Engineering (`CVG`)
+20. Civil Law (`DRC`)
+21. Classical Studies (`CLA`)
+22. Computer Engineering (`CEG`)
+23. Computer Science (`CSI`)
+24. Conflict Studies and Human Rights (`ECH`)
+25. Criminology (`CRM`)
+26. Cybersecurity (`SEC`)
+27. Economics (`ECO`)
+28. Education (`EDU`)
+29. Education (`PED`)
+30. Elective Courses in Medicine (`ELE`)
+31. Electrical Engineering (`ELG`)
+32. Elective Courses in Medicine (`ELE`)
+33. Entrepreneurial Engineering Design (`EED`)
+34. Environmental Engineering (`EVG`)
+35. Environmental Science (`EVS`)
+36. Environmental Studies (`ENV`)
+37. Environmental Sustainability (`EVD`)
+38. Francophone Studies (`EFR`)
+39. French as a Second Language (`FLS`)
+40. French Studies (`FRE`)
+41. Gastroenteritis (`GAE`)
+39. General Engineering (`GNG`)
+40. Health Administration (`HAH`, `MHA`)
+41. Health Sciences (`HSS`)
+42. Health Systems (`MHS`)
+43. History (`HIS`)
+44. Information Studies (`ISI`)
+45. Information Technology (`ITI`)
+46. Interdisciplinary Artificial Intelligence (`IAI`)
+47. Interdisciplinary Study in Arts (`AHL`)
+48. International Development and Globalization (`DVM`)
+49. Law (`DCC`, `DCL`)
+50. Leisure Studies (`LSR`)
+50. Lettres françaises (`FRA`)
+51. Linguistics (`LIN`)
+52. Mechanical Engineering (`MCG`)
+53. Medicine (`MED`, `PCS`)
+54. Medical Intern or Resident (`INR`)
+55. Medieval Studies (`MDV`)
+56. Microbiology and Immunology (`MIC`)
+57. Nursing (`NSG`)
+58. Obstetrics and Gynecology (`OBG`)
+59. Occupational Therapy (`ERG`)
+60. Ophthalmic Medical Technology (`OMT`)
+61. Ophthalmology (`OPH`)
+62. Philosophy (`PHI`)
+63. Physics (`PHY`)
+64. Physiology (`PHS`)
+64. Physiotherapy (`PHT`)
+65. Polish (`PLN`)
+66. Political Science (`POL`)
+67. Psychology (`PSY`)
+68. Public Administration (`PAP`)
+69. Public and International Affairs (`API`)
+70. Radiology (`RAD`)
+71. Rehabilitation Sciences (`REA`)
+72. Social Sciences (`FSS`, `SCS`, `SSS`)
+73. Social Work (`TSO`)
+74. Sociology (`SOC`)
+75. Translation (`TRA`)
+76. Translational and Molecular Medicine (`TMM`)
+77. uOGlobal (`GLO`)
+78. Urology (`URO`)
+79. Vered Jewish Canadian Studies (`JCS`)
+
+# Example usage
+
+Check out ```catalogue.py``` and ```subjects.py```.
