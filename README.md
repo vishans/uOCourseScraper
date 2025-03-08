@@ -99,6 +99,9 @@ Here is the list (as per March 2025):
 77. uOGlobal (`GLO`)
 78. Urology (`URO`)
 79. Vered Jewish Canadian Studies (`JCS`)
+80. Visual Arts (`ART`)
+81. World Literatures and Cultures (`LCM`)
+82. Yiddish (`YDD`)
 
 # Example usage
 
